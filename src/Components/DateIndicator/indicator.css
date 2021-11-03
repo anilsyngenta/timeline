@@ -1,0 +1,19 @@
+.indicator{
+    width: 0px;
+    height: 400%;
+    position: absolute;
+    border-left: 2px dashed #E99921;
+    top: 60px;
+    
+}
+
+.indicator p{
+    position: relative;
+    left: -7px;
+    top:450px;
+    background-color: #E99921;
+    border-radius: 50%;
+    width: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}

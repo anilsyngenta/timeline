@@ -1,0 +1,32 @@
+.fieldbar{
+    height: 55px;
+    width: 2px;
+    background-color: #EE5B3A;
+   position: relative;
+   z-index: -1;
+ 
+}
+
+.icon{
+   display: grid;
+   place-content: center;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #EE5B3A;
+    left: -12px;
+    top: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.polygonTop{
+    position: absolute;
+    top: -11px;
+    left: -3.7px;
+}
+
+.polygonBottom{
+    position: absolute;
+    top: 42px;
+    left: -3.7px;
+}

@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: #fff;
+    
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: #bebfc2;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:vertical{
+    background: #bebfc2;
+    border-radius: 10px;
+}
+/* Months Tab */
+
+.month_tab{
+    height: 30px;
+   
+    display: flex;
+}
+.month_tab_item{
+    /* border: 1px solid #bebfc2; */
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+/* Grid tab */
+
+.grid_tab{
+    height: 60px;
+    /* border: 1px solid #bebfc2; */
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.grid_tab_item{
+    /* z-index: -1; */
+    border: 1px solid #bebfc2;
+    text-align: center;
+}
+.grid_child{
+    position: absolute;
+   
+}
+
+/* Seasons */
+.field_timeline{
+    display: flex;
+    position: relative;
+}
+
+.season{
+    z-index: 2;
+    margin: 15px 0px;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    border-radius: 5px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.season p{
+    margin: 5px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+
+/* Fieldbar */
+
+.fieldbar{
+    height: 55px;
+    width: 2px;
+    background-color: #EE5B3A;
+   position: relative;
+   z-index: 1;
+ 
+}
+
+.icon{
+   display: grid;
+   place-content: center;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #EE5B3A;
+    left: -12px;
+    top: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.polygonTop{
+    position: absolute;
+    top: -11px;
+    left: -3.7px;
+}
+
+.polygonBottom{
+    position: absolute;
+    top: 42px;
+    left: -3.7px;
+}
+
+/* Activedate */
+
+.activeDate{
+    width: 1px;
+    border-left: 2px dashed #E99921;
+    position: absolute;
+    left: 200px;
+    top: 85px;
+    height: 100%
+}

@@ -1,0 +1,9 @@
+.allMonthsHeading {
+    display: flex;
+    height:25px;
+  }
+  .monthHeading {
+    border: 1px solid black;
+    text-align: center;
+    height:25px;
+  }

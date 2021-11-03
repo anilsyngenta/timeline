@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+   height: 20vh;
+position: relative;
+}
+
+.container p{
+    text-align: center;
+}
+.years{
+    width: 100%;
+    height: 20%;
+    display: flex;
+  
+}
+
+.month{
+    width: calc(100%/12);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.fields{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+
+}
+
+.field{
+    width: calc(100%/12);
+    text-align: center;
+    display: flex;
+   
+    /* border: 1px solid black; */
+}
+.days{
+    width: calc(100%/30);
+   
+}
+
+.Allfields{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.active{
+    border-end-end-radius: 50%;
+}
+
+.title{
+
+top:5px;
+left: 10px;
+position: relative;
+margin: 0px;
+padding: 0px;
+font-weight: 400;
+color: #06431C;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+}
+
+
+/* FieldBar */
+
+.fieldBar{
+    width: 1px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    z-index: -1;
+}
